@@ -27,6 +27,6 @@ steps:
     resourceGroupName: 'webapp'
     location: 'West Europe'
     templateLocation: 'Linked artifact'
-    csmFileLink: 'createwebapp/azuredeploy.json'
-    overrideParameters: '-webAppName janjanjanjanjan'
+    csmFile: 'createwebapp/azuredeploy.json'
+    overrideParameters: -webAppName janjanjanjanjan
     deploymentMode: 'Incremental'
